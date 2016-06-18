@@ -1,0 +1,5 @@
+Interpreting the meaning of data
+
+Caltech101:
+X: 512 features * 700 samples.
+Y: 700 samples * 7 classes
