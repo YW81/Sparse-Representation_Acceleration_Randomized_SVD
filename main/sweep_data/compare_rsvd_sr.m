@@ -19,7 +19,7 @@ resultClass = ClassifySR(X0,trainClass,Y,A);
 corrPerc = sum(resultClass==targetClass)/numTestSample*100;
 fprintf('Correct%% = %.1f%%\n',corrPerc);
 fprintf('***END***\n\n');  
-base_time = toc
+toc
 %% RSVD param sweep
 % do some RSVD
 % k = [floor(size(Y,2))/10:floor(size(Y,2))/10:size(Y,2), size(Y,2)];
